@@ -21,6 +21,22 @@ body {
     overflow-x: hidden;
 }
 
+.bg-xbox {
+    background-color: #107C10;
+}
+
+.bg-switch {
+    background-color: #E60012;
+}
+
+.bg-playstation {
+    background-color: #006FCD;
+}
+
+.bg-steam {
+    background-color: #00ADEE;
+}
+
 
 /* Google Fonts */
 .cossette-titre-regular {
@@ -352,6 +368,7 @@ div.gallery-item img {
     color: white;
     display: inline-block;
     width: 100%;
+    text-align: center;
 }
 
 @media (max-width: 600px) {

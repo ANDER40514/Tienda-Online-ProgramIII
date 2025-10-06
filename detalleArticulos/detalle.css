@@ -88,7 +88,8 @@ h2>span {
 .detalle-img {
     width: 350px;
     height: 350px;
-    object-fit: contain;
+    object-fit: cover;
+    object-position: center;
     border-radius: 8px;
     background: #f1f1f1;
 }
