@@ -1,0 +1,146 @@
+/* Seccion de Description detallada de Articulos */
+.description-item {
+    background-color: #f1f1f1;
+    width: 90vw;
+    height: 800px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    gap: 90px;
+}
+
+.title-game {
+    font-size: 36px;
+    border-bottom: 2px solid gray;
+    width: inherit;
+    margin-top: 20px;
+    margin-left: 15px;
+    margin-bottom: 10px;
+    height: 70px;
+}
+
+h2>span {
+    font-size: 12px;
+    background-color: red;
+    color: white;
+    padding: 4px;
+    font-style: italic;
+}
+
+.img-game {
+    display: inline;
+    width: 650px;
+    height: 500px;
+    margin: 20px;
+    margin-left: 10em;
+}
+
+.data-game {
+    width: 600px;
+    margin-top: 0px;
+}
+
+.description-game {
+    font-size: var(--font-size);
+    color: #8a8a8a;
+    width: 400px;
+    text-align: center;
+    font-weight: bolder;
+}
+
+.price-game {
+    color: red;
+    font-size: var(--font-size);
+    font-weight: bolder;
+    text-align: center;
+    display: block;
+    margin: 10px auto;
+}
+
+.btn-buy {
+    display: block;
+    color: white;
+    padding: 5px;
+    background-color: red;
+    width: 200px;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.btn-buy:hover {
+    background-color: #6e0202af;
+}
+
+.detalle-container {
+    max-width: 80%;
+    margin: 40px auto;
+    background: #fff;
+    border-radius: 12px;
+    box-shadow: 0 4px 24px rgba(0, 0, 0, 0.12);
+    padding: 32px 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+    align-items: flex-start;
+}
+
+.detalle-img {
+    width: 350px;
+    height: 350px;
+    object-fit: contain;
+    border-radius: 8px;
+    background: #f1f1f1;
+}
+
+.detalle-info {
+    flex: 1;
+}
+
+.detalle-title {
+    font-size: 2.2em;
+    margin-bottom: 10px;
+    color: #222;
+}
+
+.detalle-tag {
+    background: #e00;
+    color: #fff;
+    font-size: 0.9em;
+    padding: 3px 10px;
+    border-radius: 6px;
+    margin-right: 8px;
+}
+
+.detalle-desc {
+    margin: 18px 0;
+    color: #444;
+}
+
+.detalle-price {
+    color: #e00;
+    font-size: 1.5em;
+    font-weight: bold;
+}
+
+.detalle-btn {
+    display: inline-block;
+    margin-top: 18px;
+    padding: 12px 32px;
+    background: #e00;
+    color: #fff;
+    border: none;
+    border-radius: 8px;
+    font-size: 1.1em;
+    cursor: pointer;
+    transition: background 0.2s;
+}
+
+.detalle-btn:hover {
+    background: #a00;
+}
+
+footer {
+    position: absolute;
+    bottom: 0;
+}

@@ -1,0 +1,57 @@
+[
+    {
+        "text": "Inicio",
+        "href": "index.html",
+        "class": "nav-items"
+    },
+    {
+        "text": "Catalogo",
+        "href": "#body",
+        "class": "nav-items",
+        "sub-module": [
+            {
+                "text": "Articulos",
+                "href": "#inicio",
+                "class": "nav-sub-items"
+            },
+            {
+                "text": "Ofertas",
+                "href": "#inicio",
+                "class": "nav-sub-items"
+            },
+            {
+                "text": "Descuento",
+                "href": "#inicio",
+                "class": "nav-sub-items"
+            }
+        ]
+    },
+    {
+        "text": "Informaciones",
+        "href": "#footer",
+        "class": "nav-items",
+        "sub-module": [
+            {
+                "text": "Mision",
+                "href": "#inicio",
+                "class": "nav-sub-items"
+            },
+            {
+                "text": "Vision",
+                "href": "#inicio",
+                "class": "nav-sub-items"
+            },
+            {
+                "text": "Sobre Nosotros",
+                "href": "#inicio",
+                "class": "nav-sub-items"
+            }
+        ]
+    },
+    {
+        "text": "Contactanos",
+        "href": "contact.html",
+        "class": "nav-items",
+        "sub-module": [ ]
+    }
+]
